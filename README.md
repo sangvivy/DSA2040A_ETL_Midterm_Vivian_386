@@ -102,7 +102,7 @@ Applies the following transformations:
 
 - etl_load.ipynb
 
- Conclusion
+ ## Conclusion
 This mini-project successfully demonstrated the full ETL (Extract, Transform, Load) pipeline using Python and pandas. Starting with raw and incremental datasets, the process involved:
 
 Extraction of structured CSV files,
