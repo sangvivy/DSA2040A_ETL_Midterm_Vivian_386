@@ -60,7 +60,7 @@ Applies the following transformations:
 | Cleaning            | Removed duplicates and rows with missing key data |
 | Enrichment          | Added `total_price = quantity * unit_price` |
 | Structural          | Converted `signup_date` to `datetime` |
-| Categorization      | Created `age_group` column (e.g., Teen, Adult, Senior) |
+
 
 - Outputs are saved to `transformed/` as:
   - `transformed_full.csv`
