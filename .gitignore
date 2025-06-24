@@ -1,0 +1,26 @@
+# Ignore Python cache and bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore SQLite databases
+*.db
+
+# Ignore Parquet or binary files (if used)
+*.parquet
+
+# Ignore data files that can be regenerated
+data/raw_data.csv
+data/incremental_data.csv
+transformed/transformed_full.csv
+transformed/transformed_incremental.csv
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+*.log
