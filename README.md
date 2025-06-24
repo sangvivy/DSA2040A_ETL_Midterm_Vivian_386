@@ -60,6 +60,7 @@ Applies the following transformations:
 | Cleaning            | Removed duplicates and rows with missing key data |
 | Enrichment          | Added `total_price = quantity * unit_price` |
 | Structural          | Converted `signup_date` to `datetime` |
+|Filtering
 
 
 - Outputs are saved to `transformed/` as:
