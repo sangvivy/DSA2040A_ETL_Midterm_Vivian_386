@@ -2,6 +2,12 @@
 
 This project demonstrates a complete **Extract, Transform, Load (ETL)** process using a mock dataset. It simulates a real-world scenario where data is ingested incrementally, transformed for analytical use, and stored in a structured format using SQLite.
 
+## Objective
+To assess your mastery of the ETL process through a hands-on mini-project that extracts data, applies
+useful transformations, and loads it into a structured format — all while maintaining professional
+documentation and GitHub hygiene.
+
+
 ##  Author
 **Name:** Vivian  
 **Student ID:** 386
@@ -96,4 +102,13 @@ Applies the following transformations:
 
 - etl_load.ipynb
 
+ Conclusion
+This mini-project successfully demonstrated the full ETL (Extract, Transform, Load) pipeline using Python and pandas. Starting with raw and incremental datasets, the process involved:
 
+Extraction of structured CSV files,
+
+Transformation through meaningful data cleaning, enrichment (e.g., total_price calculation), structural adjustments (e.g., date conversion), and missing value handling,
+
+Loading the transformed data into a SQLite database for easy querying and storage.
+
+The pipeline adheres to best practices such as using relative paths, maintaining organized folder structures, and ensuring reproducibility. This project reinforces practical data engineering skills that are essential for real-world data workflows.
